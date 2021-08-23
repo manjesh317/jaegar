@@ -1,0 +1,10 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: app-1
+opentracing: 
+  jaeger:
+    udp-sender:
+      host: localhost
+      port: 6831
